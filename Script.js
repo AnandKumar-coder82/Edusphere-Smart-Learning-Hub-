@@ -1,0 +1,2 @@
+function scrollTocourses(){document.getElementById('courses').scrollIntoView({behaviour:'smooth'})}
+document.getElementById('contactForm').addEventListener('submit',function(e){e.preventDefault();let name=document.getElementById('name').Value;let email=document.getElementById('email').value;if(name==""||email==""){alert("Please fill all fields")}else{alert("Thank you "+name+"! Your query submitted.");this.requestFullscreen()}})
